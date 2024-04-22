@@ -5,7 +5,7 @@
   "description": "<img width=\"150px\" src=\"https://w0244079.github.io/nscc/nscc-jpeg.jpg\" >",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"nodemon app\" \"cd client && npm run dev\" --kill-others-on-fail",
+    "dev": "concurrently \"node app\" \"cd client && npm run dev\" --kill-others-on-fail",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
